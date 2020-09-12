@@ -3,7 +3,7 @@ import csv
 
 def sendNamesToTemplate():
     # open template file
-    prs = Presentation("/Users/kjvmartinez/Documents/Dev/Active_Projects/question-to-pptx/certificate_tmp.pptx")
+    prs = Presentation("<relative path of your template>")
     title_slide_layout = prs.slide_layouts[0]
 
     with open("participants.csv") as file:
